@@ -1,0 +1,100 @@
+.message{
+    text-indent: 8px;
+    background: #e74c3c;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    
+    text-transform: capitalize;
+}
+.box-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+
+}
+.box-content .box{
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+    margin-bottom: 30px;
+    color: white;
+}
+.boxing{
+    display: flex;
+    justify-content: space-between;
+}
+.boxing .left{
+    text-align: center;
+    padding: 20px;
+}
+.boxing .left i {
+    font-size: 40px;
+    padding: 8px 0;
+}
+.boxing .left span{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.boxing .right{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+.boxing .right span{
+    font-size: 40px;
+}
+.box-content .card{
+        width: 31%;
+        background: red;
+        display: flex;
+        text-align: center;
+        background-color: rgba(0,0,0,0.7);
+       color: white;
+        justify-content: center;
+        margin-bottom: 20px;
+        height: auto;
+        font-size: 13px;
+      
+}
+.card div p{
+    margin: 20px;
+}
+
+.box-content .card i {
+font-size: 13px;
+}
+.box-content .card  span{
+    font-size: 21px;
+    padding: 25px 0;
+}
+@media (max-width:968px) {
+    .box-content .card{
+        width: 100%;
+    }
+    .message{
+        font-size: 30px;
+    }
+    .box-content .card i {
+        font-size: 22px;
+        }
+        .box-content .card  span{
+            font-size: 32px;
+        }
+        .card div p{
+            font-size: 22px;
+        }
+        .boxing .left i {
+            font-size: 60px;
+            padding: 8px 0;
+        }
+        .boxing .left span{
+            font-size: 25px;
+            text-transform: capitalize;
+        }
+      
+        .boxing .right span{
+            font-size: 50px;
+        }
+}
